@@ -1,0 +1,25 @@
+{
+  "name": "calc-viz",
+  "version": "1.0.0",
+  "description": "Calculation vizualizer API",
+  "main": "src/index.js",
+  "engines": {
+    "npm": ">=8.5.0",
+    "node": ">=16.14.2"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "ava"
+  },
+  "author": "whitney walker",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mathjs": "^10.4.2"
+  },
+  "devDependencies": {
+    "ava": "^4.1.0",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
